@@ -1,0 +1,27 @@
+// Bootstrap Style Overwrite
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-open-sans;
+}
+
+.navbar-brand {
+    font-family: $font-Saira-Stencil-One;
+    font-size: 25px;
+}
+
+.navbar-brand i {
+    color: $color-primary;
+}
+
+.navbar-brand span {
+    color: $color-primary;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .9rem;
+        padding-left: .9rem;
+    }
+}

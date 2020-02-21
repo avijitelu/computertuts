@@ -1,0 +1,26 @@
+.btn__primary {
+    display: inline-block;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    padding: 10px 20px;
+
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: $color-primary-light;
+    }
+}
+
+.btn__secondary {
+    display: inline-block;
+    background-color: $color-primary;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 0;
+
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: $color-primary-light;
+    }
+}

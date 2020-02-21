@@ -1,0 +1,42 @@
+.heading__secondary {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: $color-primary;
+
+    @media(max-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+.heading__secondary--line {
+    position: relative;
+}
+
+.heading__secondary--line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    width: 200px;
+    height: 5px;
+    border-top: 1px solid $color-primary;
+    border-bottom: 1px solid $color-primary;
+
+}
+
+.heading__secondary--line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    width: 200px;
+    height: 5px;
+    border-top: 1px solid $color-primary;
+    border-bottom: 1px solid $color-primary;
+
+}
+
+.heading__tertiary {
+    font-size: 35px;
+    margin-bottom: 35px;
+}

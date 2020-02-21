@@ -1,0 +1,36 @@
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: $color-primary;
+}
+
+.footer__address-box {
+    color: #fff;
+}
+
+.footer__address-title {
+    font-size: 25px;
+}
+
+.footer__address {
+    line-height: 1.7;
+    color: #c7c7c7;
+}
+
+.footer__address i {
+    margin-right: 5px;
+}
+
+.footer__link {
+    display: flex;
+    color: #c7c7c7;
+}
+
+.footer__copy {
+    color: #c7c7c7;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 15px 0 0 0;
+    text-align: center;
+    border-top: 1px solid #8b8b8b;
+    font-size: 14px;
+}

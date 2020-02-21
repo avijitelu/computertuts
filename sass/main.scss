@@ -1,0 +1,19 @@
+/*   Basic Setup
+------------------------------------------ */
+@import './partials/basic/variables';
+@import './partials/basic/typography';
+@import './partials/basic/common';
+@import './partials/basic/bootstrap';
+
+
+/*   Components
+------------------------------------------ */
+@import './partials/components/button';
+@import './partials/components/navigation';
+@import './partials/components/banner_slider';
+@import './partials/components/custom_modal';
+@import './partials/components/footer';
+
+/*   Pages
+------------------------------------------ */
+@import './partials/pages/index';
